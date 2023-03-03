@@ -1,0 +1,247 @@
+.header {
+  display: flex;
+  padding: 46px;
+  justify-content: space-between;
+  color: #2b2b2b;
+}
+.header .rigth_site {
+  display: flex;
+}
+.header .lef_site {
+  display: flex;
+}
+.header svg {
+  width: 1.5rem;
+  padding: -10px;
+  padding-left: 14px;
+  padding-bottom: 20px;
+}
+.header a {
+  text-decoration: none;
+  color: #2b2b2b;
+  padding: 20px;
+  padding-top: 17px;
+  text-decoration: none;
+  color: #2b2b2b;
+  padding-left: 20px;
+  height: 0px;
+}
+
+.header .rigth_site .logo {
+  width: 84px;
+}
+.translate_box {
+  background-color: rgb(251, 251, 251);
+  color: #2b2b2b;
+  border: solid #2b2b2b;
+  text-align: center;
+}
+
+.header-info {
+  background-color: #f2f2f2;
+  color: #4e4e4e;
+  opacity: 1;
+  height: 35px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box-content {
+  background-image: url(./img/back-ground-img.webp);
+  background-size: cover;
+  color: #444;
+  font-size: 18px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.box-content .conlagen {
+  opacity: 1;
+
+  width: 22rem;
+  height: 20rem;
+  justify-self: baseline;
+  display: flex;
+  align-content: flex-end;
+}
+.box-content .conlagen:hover {
+  transform: scale(1.1);
+}
+
+.box-content .lady {
+  opacity: 1;
+  width: 28rem;
+  height: 24rem;
+}
+
+.box-content .top_product {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  justify-content: center;
+  gap: 31px;
+  align-items: center;
+}
+
+.box-content .top_product h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.box-content .top_product h2 {
+  line-height: 1.2;
+  font-size: 2rem;
+}
+.box-content .top_product .Shop_botum {
+  color: #ffffff;
+  background: linear-gradient(
+    135deg,
+    rgb(45, 42, 42) 36%,
+    rgb(193, 191, 191) 100%
+  );
+  text-decoration: none;
+  width: 136px;
+  display: flex;
+  justify-content: center;
+  padding: 18px;
+  box-shadow: 2px 5px 49px 1px rgba(0, 0, 0, 0.75);
+}
+.box-content .top_product .Shop_botum:hover {
+  color: #000000;
+  background: linear-gradient(
+    135deg,
+    rgb(255, 255, 255) 36%,
+    rgb(193, 191, 191) 100%
+  );
+}
+
+.box-content .top_product p {
+  text-align: center;
+}
+.Fitness_market {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  padding: 53px;
+}
+.Fitness_market img {
+  width: 9rem;
+}
+.Fitness_market h1 {
+  font-size: 37px;
+  margin-top: 22px;
+  color: #2b2b2b;
+}
+.img_recipe a img {
+  width: 22rem;
+}
+.img_recipe {
+  display: flex;
+  justify-content: center;
+  background: cover;
+}
+
+.videos h1 {
+  color: #2b2b2b;
+  font-size: 35px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 47px;
+}
+.videos {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  padding: 2px;
+}
+.videos .videos_options {
+  padding: 4px;
+}
+.last_menu .btn {
+  text-decoration: none;
+  text-align: center;
+  line-height: 1.5;
+  color: #fff;
+  background: #4dbbc3;
+  border: 2px solid #4dbbc3;
+  font-size: 12px;
+  height: 40px;
+  padding: 0.375rem 0.75rem;
+}
+.last_menu .email input {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  padding: 0.375rem 0.75rem;
+}
+
+.footer .my_footer a img {
+  width: 40px;
+  height: 40px;
+  padding-left: 20px;
+}
+.footer .my_footer .logo img {
+  width: 9rem;
+  height: auto;
+  padding-left: 53px;
+}
+.footer h2 {
+  font-size: 16px;
+  color: #444;
+  line-height: 1.2;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+}
+.footer ul {
+  text-align: initial;
+  color: #444;
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  list-style: none;
+}
+.footer ul li a {
+  margin-top: 5px;
+  line-height: 24px;
+  text-decoration: none;
+  color: #444;
+  display: list-item;
+  text-align: match-parent;
+}
+.footer p {
+  margin-bottom: 32px;
+}
+
+footer .footer {
+  background-color: #f2f2f2;
+  justify-content: space-around;
+  display: flex;
+  gap: 64px;
+  display: flex;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+.footer .social_media {
+  padding-top: 22px;
+  display: flex;
+  justify-content: space-around;
+}
+footer .optional_text {
+  padding: 32px 60px;
+  border-top: 1px solid #ccc;
+  text-align: center;
+  display: block;
+  background-color: #f2f2f2;
+}
+.footer .last_menu form {
+  display: flex;
+}
