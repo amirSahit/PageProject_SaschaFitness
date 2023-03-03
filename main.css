@@ -86,14 +86,25 @@
   flex-grow: 1;
 }
 
+/*==================== shopByCategory END =========================*/
+/*==================== International Shipping Start =========================*/
+
 .internationalShipping {
   background-color: #4dbbc3;
+  background-image: url(/Images/InternationalShipping.webp);
+  background-size: cover;
 }
 .internationalShipping img {
   width: 100vw;
+  height: 75vh;
 }
 
-/*==================== shopByCategory END =========================*/
+.internationalShipping img:hover {
+  background-image: url(/Images/Shipping-ReviewV2.png);
+  background-size: cover;
+}
+
+/*==================== International Shipping END =========================*/
 
 /*==================== Trending Products START =========================*/
 
