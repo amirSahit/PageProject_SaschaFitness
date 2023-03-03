@@ -343,8 +343,6 @@ footer .optional_text {
   width: 100vw;
   height: 300px;
 }
-.internationalShipping img {
-}
 
 .internationalShipping:hover {
   background-image: url(/Images/Shipping-ReviewV2.png);
