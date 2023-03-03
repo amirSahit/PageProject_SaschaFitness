@@ -75,6 +75,18 @@
   width: 28rem;
   height: 24rem;
 }
+.golumy {
+  width: 28rem;
+  height: 24rem;
+}
+
+.golumy:hover {
+  transform: scale(1.5);
+  margin-right: 5rem;
+}
+.showimg {
+  display: none;
+}
 
 .box-content .top_product {
   display: flex;
