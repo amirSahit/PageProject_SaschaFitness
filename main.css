@@ -295,6 +295,7 @@ footer .optional_text {
   justify-content: center;
   text-align: center;
   gap: 0.5rem;
+  margin-top: 2rem;
 }
 
 .shopByCategory-Headline h3 {
@@ -349,6 +350,10 @@ footer .optional_text {
   background-size: cover;
 }
 
+.internationalShipping img {
+  width: 100vh;
+  opacity: 0;
+}
 /*==================== International Shipping END =========================*/
 
 /*==================== Trending Products START =========================*/
