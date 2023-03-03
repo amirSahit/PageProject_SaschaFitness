@@ -245,3 +245,320 @@ footer .optional_text {
 .footer .last_menu form {
   display: flex;
 }
+/* poppins-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/poppins-v20-latin-regular.eot"); /* IE9 Compat Modes */
+  src: url("/fonts/poppins-v20-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("/fonts/poppins-v20-latin-regular.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("/fonts/poppins-v20-latin-regular.woff")
+      format("woff"),
+    /* Modern Browsers */ url("/fonts/poppins-v20-latin-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("/fonts/poppins-v20-latin-regular.svg#Poppins") format("svg"); /* Legacy iOS */
+}
+/* poppins-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  src: url("/fonts/poppins-v20-latin-800.eot"); /* IE9 Compat Modes */
+  src: url("/fonts/poppins-v20-latin-800.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("/fonts/poppins-v20-latin-800.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("/fonts/poppins-v20-latin-800.woff")
+      format("woff"),
+    /* Modern Browsers */ url("/fonts/poppins-v20-latin-800.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */ url("/fonts/poppins-v20-latin-800.svg#Poppins")
+      format("svg"); /* Legacy iOS */
+}
+
+* {
+  font-family: "Poppins";
+  color: #444444;
+}
+
+/*==================== mainBody =========================*/
+
+/*==================== shopByCategory START =========================*/
+
+.shopByCategory-Headline {
+  display: grid;
+  grid-template-rows: 2;
+  justify-content: center;
+  text-align: center;
+  gap: 0.5rem;
+}
+
+.shopByCategory-Headline h3 {
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+/* SHOP BY CATEGORY CONTAINER START */
+
+.shopByCategory-Wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1rem;
+  margin: 2rem;
+}
+
+.shopByCategory-Wrapper div {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  background: linear-gradient(
+    0deg,
+    rgba(203, 203, 203, 1) 0%,
+    rgb(255, 255, 255) 100%
+  );
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.shopByCategory-Wrapper img {
+  width: 15rem;
+}
+
+.shopByCategory-Wrapper p {
+  flex-grow: 1;
+}
+
+/*==================== shopByCategory END =========================*/
+/*==================== International Shipping Start =========================*/
+
+.internationalShipping {
+  background-color: #4dbbc3;
+  background-image: url(/Images/InternationalShipping.webp);
+  background-size: cover;
+  width: 100vw;
+  height: 300px;
+}
+.internationalShipping img {
+}
+
+.internationalShipping:hover {
+  background-image: url(/Images/Shipping-ReviewV2.png);
+  background-size: cover;
+}
+
+/*==================== International Shipping END =========================*/
+
+/*==================== Trending Products START =========================*/
+
+.trendingProducts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.trendingProducts h3 {
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.trendingProducts-wrapper1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100vw;
+}
+
+.trendingProducts-wrapper1 div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.trendingProducts-wrapper1 span {
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.trendingProducts-wrapper1 p {
+  font-family: sans-serif;
+}
+
+.trendingProducts-wrapper1 img {
+  width: 15rem;
+}
+
+.imageLarge:hover {
+  transform: scale(1.1);
+}
+
+.buttonChange:hover {
+  background-color: white;
+  color: #4dbbc3;
+}
+
+.trendingProducts-wrapper1 button {
+  background-color: #4dbbc3;
+  color: white;
+  border: 1px solid #4dbbc3;
+  border-radius: 3px;
+  padding: 0.5rem 2.5rem;
+}
+
+.trendingProducts-wrapper2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100vw;
+  margin-top: 5rem;
+}
+
+.trendingProducts-wrapper2 div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.trendingProducts-wrapper2 span {
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.trendingProducts-wrapper2 p {
+  font-family: sans-serif;
+}
+
+.trendingProducts-wrapper2 img {
+  width: 15rem;
+}
+
+.trendingProducts-wrapper2 button {
+  background-color: #4dbbc3;
+  color: white;
+  border: 1px solid #4dbbc3;
+  border-radius: 3px;
+  padding: 0.5rem 2.5rem;
+}
+/*==================== Trending Products END =========================*/
+/*==================== GiftCard START =========================*/
+.giftCard {
+  margin: 2rem 0;
+  width: 100vw;
+}
+/*==================== GiftCard END =========================*/
+/*==================== Blog START =========================*/
+
+.Blog-header {
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.blog-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin: 4rem;
+}
+
+.blog-wrapper span {
+  color: #4dbbc3;
+}
+.blog-wrapper span:hover {
+  color: black;
+}
+.blog-wrapper span::before {
+  content: "--- ";
+}
+.blog-wrapper h3 {
+  font-size: 1.1rem;
+}
+
+.blog-wrapper h3:hover {
+  color: #4dbbc3;
+}
+
+.blog-wrapper p {
+  font-size: 0.9rem;
+}
+
+.blog-wrapper img {
+  width: 100%;
+  height: 15rem;
+}
+
+.blog-wrapper div {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.blog-wrapper button {
+  background-color: #4dbbc3;
+  color: white;
+  border: 1px solid #4dbbc3;
+  border-radius: 3px;
+  padding: 0.5rem 2.5rem;
+  width: 12rem;
+}
+
+/*==================== Blog END =========================*/
+/*==================== Subscribe START =========================*/
+
+.subscribe-wrapper {
+  display: flex;
+  flex-direction: row;
+  background-image: url(/Images/back-ground-img-subscribe.webp);
+  background-size: cover;
+  padding: 1rem 5rem 0 5rem;
+  align-items: center;
+}
+
+.subscribe-wrapper img {
+  width: 30rem;
+}
+
+.subscribe-wrapper button img {
+  width: 2rem;
+  color: white;
+}
+
+.subscribe-wrapper h3 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.subscribe-wrapper span {
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+.subscribe-EnterEmail {
+  display: flex;
+  flex-direction: row;
+}
+
+.subscribe-EnterEmail input {
+  padding: 0.3rem 2rem 0.3rem 0.5rem;
+  width: 15rem;
+}
+
+.subscribe-EnterEmail button {
+  width: 4rem;
+  background-color: #4dbbc3;
+  color: white;
+  border: 1px solid #4dbbc3;
+}
+/*==================== Subscribe END =========================*/
