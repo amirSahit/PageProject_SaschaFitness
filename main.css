@@ -93,13 +93,13 @@
   background-color: #4dbbc3;
   background-image: url(/Images/InternationalShipping.webp);
   background-size: cover;
+  width: 100vw;
+  height: 300px;
 }
 .internationalShipping img {
-  width: 100vw;
-  height: 75vh;
 }
 
-.internationalShipping img:hover {
+.internationalShipping:hover {
   background-image: url(/Images/Shipping-ReviewV2.png);
   background-size: cover;
 }
