@@ -257,6 +257,43 @@ footer .optional_text {
 .footer .last_menu form {
   display: flex;
 }
+/*---------------------drop_down-------------------------------------------*/
+
+.drop_down {
+  background-color: #ffffff;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+.drop_down1 {
+  position: relative;
+  display: inline-block;
+  top: 17px;
+}
+.list {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.list li {
+  color: black;
+  padding: 12px 16px 12px 0;
+  text-decoration: none;
+  display: block;
+}
+.list li:hover {
+  background-color: #ddd;
+}
+.drop_down1:hover .list {
+  display: block;
+}
+.drop_down1:hover .drop_down {
+  background-color: #ffffff;
+}
 /* poppins-regular - latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
