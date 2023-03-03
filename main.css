@@ -253,3 +253,54 @@
   padding: 0.5rem 2.5rem;
   width: 12rem;
 }
+
+/*==================== Blog END =========================*/
+/*==================== Subscribe START =========================*/
+
+.subscribe-wrapper {
+  display: flex;
+  flex-direction: row;
+  background-image: url(/Images/back-ground-img-subscribe.webp);
+  background-size: cover;
+  padding: 1rem 5rem 0 5rem;
+  align-items: center;
+}
+
+.subscribe-wrapper img {
+  width: 30rem;
+}
+
+.subscribe-wrapper button img {
+  width: 2rem;
+  color: white;
+}
+
+.subscribe-wrapper h3 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.subscribe-wrapper span {
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+.subscribe-EnterEmail {
+  display: flex;
+  flex-direction: row;
+}
+
+.subscribe-EnterEmail input {
+  padding: 0.3rem 2rem 0.3rem 0.5rem;
+  width: 15rem;
+}
+
+.subscribe-EnterEmail button {
+  width: 4rem;
+  background-color: #4dbbc3;
+  color: white;
+  border: 1px solid #4dbbc3;
+}
+/*==================== Subscribe END =========================*/
